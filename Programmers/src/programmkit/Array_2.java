@@ -32,7 +32,6 @@ public class Array_2 {
 //		});
 		Arrays.sort(numberST, (o1,o2)->(o2+o1).compareTo(o1+o2));
 		
-		
 		//0000처럼 0으로만 구성되어있으면 0 return
 		if(numberST[0].equals("0"))
 			return "0";
